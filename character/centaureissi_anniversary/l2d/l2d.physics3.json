@@ -1,0 +1,68 @@
+{
+  "Version": 3,
+  "Meta": {
+    "PhysicsSettingCount": 1,
+    "TotalInputCount": 0,
+    "TotalOutputCount": 2,
+    "VertexCount": 0,
+    "EffectiveForces": {
+      "Gravity": {
+        "X": 0,
+        "Y": -1
+      },
+      "Wind": {
+        "X": 0,
+        "Y": 0
+      }
+    },
+    "PhysicsDictionary": [
+      {
+        "Id": "PhysicsSetting1",
+        "Name": "Dummy1"
+      }
+    ]
+  },
+  "PhysicsSettings": [
+    {
+      "Id": "PhysicsSetting1",
+      "Input": [],
+      "Output": [
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "ParamAngleX"
+          },
+          "VertexIndex": 0,
+          "Scale": 60,
+          "Weight": 0,
+          "Type": "X",
+          "Reflect": true
+        },
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": ""
+          },
+          "VertexIndex": 1735278957,
+          "Scale": 0,
+          "Weight": 0,
+          "Type": null,
+          "Reflect": false
+        }
+      ],
+      "Vertices": [],
+      "Normalization": {
+        "Position": {
+          "Minimum": 0,
+          "Default": 0,
+          "Maximum": 0
+        },
+        "Angle": {
+          "Minimum": 1,
+          "Default": 1,
+          "Maximum": 0
+        }
+      }
+    }
+  ]
+}
