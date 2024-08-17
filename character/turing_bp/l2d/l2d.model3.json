@@ -1,75 +1,121 @@
 {
   "Version": 3,
+  "Name": "L2D",
   "FileReferences": {
-    "Moc": "l2d.moc3",
+    "Moc": "L2D.moc3",
     "Textures": [
       "textures/texture_00.png",
       "textures/texture_01.png"
     ],
     "Physics": null,
     "Motions": {
-      "": [
+      "login_1": [
         {
           "File": "motions/login_1.motion3.json"
-        },
+        }
+      ],
+      "normalA": [
         {
           "File": "motions/normalA.motion3.json"
-        },
+        }
+      ],
+      "normalB": [
         {
           "File": "motions/normalB.motion3.json"
-        },
+        }
+      ],
+      "repeat": [
         {
           "File": "motions/repeat.motion3.json"
-        },
+        }
+      ],
+      "touch_A1": [
         {
           "File": "motions/touch_A1.motion3.json"
-        },
+        }
+      ],
+      "touch_A2": [
         {
           "File": "motions/touch_A2.motion3.json"
-        },
+        }
+      ],
+      "touch_A3": [
         {
           "File": "motions/touch_A3.motion3.json"
-        },
+        }
+      ],
+      "touch_A4": [
         {
           "File": "motions/touch_A4.motion3.json"
-        },
+        }
+      ],
+      "touch_A5": [
         {
           "File": "motions/touch_A5.motion3.json"
-        },
+        }
+      ],
+      "touch_AB": [
         {
           "File": "motions/touch_AB.motion3.json"
-        },
+        }
+      ],
+      "touch_ATip": [
         {
           "File": "motions/touch_ATip.motion3.json"
-        },
+        }
+      ],
+      "touch_B1": [
         {
           "File": "motions/touch_B1.motion3.json"
-        },
+        }
+      ],
+      "touch_B2": [
         {
           "File": "motions/touch_B2.motion3.json"
-        },
+        }
+      ],
+      "touch_B3": [
         {
           "File": "motions/touch_B3.motion3.json"
-        },
+        }
+      ],
+      "touch_B4": [
         {
           "File": "motions/touch_B4.motion3.json"
-        },
+        }
+      ],
+      "touch_B5": [
         {
           "File": "motions/touch_B5.motion3.json"
-        },
+        }
+      ],
+      "touch_BA": [
         {
           "File": "motions/touch_BA.motion3.json"
-        },
+        }
+      ],
+      "touch_Silk": [
         {
           "File": "motions/touch_Silk.motion3.json"
-        },
+        }
+      ],
+      "wait_A": [
         {
           "File": "motions/wait_A.motion3.json"
         }
       ]
-    }
+    },
+    "Expressions": []
   },
   "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen",
+        "ParamEyeROpen"
+      ]
+    },
     {
       "Target": "Parameter",
       "Name": "LipSync",

@@ -5,16 +5,33 @@
     "Fps": 30.0,
     "Loop": true,
     "AreBeziersRestricted": true,
+    "FadeInTime": 0.0,
+    "FadeOutTime": 0.0,
     "CurveCount": 18,
     "TotalSegmentCount": 88,
     "TotalPointCount": 94,
-    "UserDataCount": 1,
+    "UserDataCount": 0,
     "TotalUserDataSize": 0
   },
   "Curves": [
     {
       "Target": "Parameter",
+      "Id": "ParamMouthOpenY",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
+      "Segments": [
+        0,
+        0,
+        0,
+        5,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
       "Id": "ParamGrass1",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         -3.639,
@@ -38,6 +55,8 @@
     {
       "Target": "Parameter",
       "Id": "ParamGrass2",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         -28.055,
@@ -61,6 +80,8 @@
     {
       "Target": "Parameter",
       "Id": "ParamGrass3",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         -19.72,
@@ -84,6 +105,8 @@
     {
       "Target": "Parameter",
       "Id": "ParamTreeTapeA1",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         22.792,
@@ -107,6 +130,8 @@
     {
       "Target": "Parameter",
       "Id": "ParamTreeTapeA2",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         -12.967,
@@ -130,6 +155,8 @@
     {
       "Target": "Parameter",
       "Id": "ParamTreeTapeA3",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         -26.178,
@@ -153,6 +180,8 @@
     {
       "Target": "Parameter",
       "Id": "ParamTreeTapeA4",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         5.725,
@@ -176,6 +205,8 @@
     {
       "Target": "Parameter",
       "Id": "ParamTreeTapeA5",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         30,
@@ -196,6 +227,8 @@
     {
       "Target": "Parameter",
       "Id": "ParamTreeTapeB1",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         -4.468,
@@ -225,6 +258,8 @@
     {
       "Target": "Parameter",
       "Id": "ParamTreeTapeB2",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         -23.749,
@@ -254,6 +289,8 @@
     {
       "Target": "Parameter",
       "Id": "ParamTreeTapeB3",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         12.242,
@@ -283,6 +320,8 @@
     {
       "Target": "Parameter",
       "Id": "ParamLightA1",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         -27.286,
@@ -306,6 +345,8 @@
     {
       "Target": "Parameter",
       "Id": "ParamLightA2",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         -3.858,
@@ -328,7 +369,22 @@
     },
     {
       "Target": "Parameter",
+      "Id": "ParamLightA3",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
+      "Segments": [
+        0,
+        0,
+        0,
+        5,
+        0
+      ]
+    },
+    {
+      "Target": "Parameter",
       "Id": "ParamLightB1",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         -6.028,
@@ -352,10 +408,12 @@
     {
       "Target": "Parameter",
       "Id": "ParamLightB2",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         -30,
-        2,
+        0,
         1.467,
         -30,
         1,
@@ -382,7 +440,7 @@
         0,
         4.7,
         -30,
-        2,
+        0,
         5,
         -30
       ]
@@ -390,50 +448,25 @@
     {
       "Target": "Parameter",
       "Id": "ParamBGetc2",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         0,
-        2,
+        0,
         1.2,
         0,
         0,
         2.667,
         30,
-        2,
+        0,
         3.5,
         30,
         0,
         5,
         0
       ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "ParamMouthOpenY",
-      "Segments": [
-        0,
-        0,
-        0,
-        5,
-        0
-      ]
-    },
-    {
-      "Target": "Parameter",
-      "Id": "ParamLightA3",
-      "Segments": [
-        0,
-        0,
-        0,
-        5,
-        0
-      ]
     }
   ],
-  "UserData": [
-    {
-      "Time": 0.0,
-      "Value": ""
-    }
-  ]
+  "UserData": []
 }
