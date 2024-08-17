@@ -1,20 +1,29 @@
 {
   "Version": 3,
+  "Name": "L2D",
   "FileReferences": {
-    "Moc": "l2d.moc3",
+    "Moc": "L2D.moc3",
     "Textures": [
       "textures/texture_00.png"
     ],
     "Physics": null,
     "Motions": {
-      "": [
+      "ldle_1": [
         {
           "File": "motions/ldle_1.motion3.json"
         }
       ]
-    }
+    },
+    "Expressions": []
   },
   "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen"
+      ]
+    },
     {
       "Target": "Parameter",
       "Name": "LipSync",

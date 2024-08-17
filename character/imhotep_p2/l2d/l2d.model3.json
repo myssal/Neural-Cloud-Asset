@@ -1,30 +1,55 @@
 {
   "Version": 3,
+  "Name": "L2D",
   "FileReferences": {
-    "Moc": "l2d.moc3",
+    "Moc": "L2D.moc3",
     "Textures": [
       "textures/texture_00.png"
     ],
     "Physics": null,
     "Motions": {
-      "": [
-        {
-          "File": "motions/touch_1.motion3.json"
-        },
-        {
-          "File": "motions/wait_2.motion3.json"
-        },
-        {
-          "File": "motions/wait_1.motion3.json"
-        },
+      "login_1": [
         {
           "File": "motions/login_1.motion3.json"
-        },
+        }
+      ],
+      "normal": [
         {
           "File": "motions/normal.motion3.json"
         }
+      ],
+      "touch_1": [
+        {
+          "File": "motions/touch_1.motion3.json"
+        }
+      ],
+      "wait_1": [
+        {
+          "File": "motions/wait_1.motion3.json"
+        }
+      ],
+      "wait_2": [
+        {
+          "File": "motions/wait_2.motion3.json"
+        }
+      ]
+    },
+    "Expressions": []
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeLOpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
       ]
     }
-  },
-  "Groups": []
+  ]
 }

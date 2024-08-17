@@ -5,20 +5,24 @@
     "Fps": 30.0,
     "Loop": true,
     "AreBeziersRestricted": true,
+    "FadeInTime": 0.5,
+    "FadeOutTime": 0.0,
     "CurveCount": 6,
     "TotalSegmentCount": 47,
     "TotalPointCount": 75,
-    "UserDataCount": 1,
+    "UserDataCount": 0,
     "TotalUserDataSize": 0
   },
   "Curves": [
     {
       "Target": "Parameter",
       "Id": "ParamWleEye3",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         0,
-        2,
+        0,
         0.167,
         0,
         0,
@@ -62,6 +66,8 @@
     {
       "Target": "Parameter",
       "Id": "ParamWleAZ",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         0,
@@ -104,6 +110,8 @@
     {
       "Target": "Parameter",
       "Id": "Param4",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         0,
@@ -116,19 +124,19 @@
         0,
         0.567,
         1,
-        2,
+        0,
         0.767,
         1,
-        2,
+        0,
         1.333,
         1,
-        2,
+        0,
         1.667,
         1,
         0,
         1.8,
         0,
-        2,
+        0,
         2.2,
         0
       ]
@@ -136,16 +144,18 @@
     {
       "Target": "Parameter",
       "Id": "ParamWleEye2",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         0,
         0,
         0.167,
         1,
-        2,
+        0,
         0.533,
         1,
-        2,
+        0,
         1.333,
         1,
         0,
@@ -156,6 +166,8 @@
     {
       "Target": "Parameter",
       "Id": "ParamWleEye5",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         0,
@@ -212,6 +224,8 @@
     {
       "Target": "Parameter",
       "Id": "ParamWleEye9",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         0,
@@ -255,10 +269,5 @@
       ]
     }
   ],
-  "UserData": [
-    {
-      "Time": 0.0,
-      "Value": ""
-    }
-  ]
+  "UserData": []
 }
