@@ -5,20 +5,37 @@
     "Fps": 30.0,
     "Loop": true,
     "AreBeziersRestricted": true,
+    "FadeInTime": 1.0,
+    "FadeOutTime": 1.0,
     "CurveCount": 8,
     "TotalSegmentCount": 205,
     "TotalPointCount": 535,
-    "UserDataCount": 1,
+    "UserDataCount": 0,
     "TotalUserDataSize": 0
   },
   "Curves": [
     {
+      "Target": "Model",
+      "Id": "Opacity",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
+      "Segments": [
+        0,
+        1,
+        0,
+        10.33,
+        1
+      ]
+    },
+    {
       "Target": "Parameter",
       "Id": "ParamA1",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         0,
-        2,
+        0,
         0.5,
         0,
         1,
@@ -203,7 +220,7 @@
         3.033,
         9.133,
         0,
-        2,
+        0,
         10.333,
         0
       ]
@@ -211,6 +228,8 @@
     {
       "Target": "Parameter",
       "Id": "ParamaA2",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         4.695,
@@ -220,7 +239,7 @@
         0,
         1,
         0,
-        2,
+        0,
         8.3,
         0,
         0,
@@ -237,13 +256,15 @@
     {
       "Target": "Parameter",
       "Id": "ParamB1",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         0,
         0,
         0.5,
         5,
-        2,
+        0,
         1.333,
         5,
         0,
@@ -296,6 +317,8 @@
     {
       "Target": "Parameter",
       "Id": "ParamB2",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         0,
@@ -623,6 +646,8 @@
     {
       "Target": "Parameter",
       "Id": "ParamB3",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         0,
@@ -950,6 +975,8 @@
     {
       "Target": "Parameter",
       "Id": "ParamB4",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         0,
@@ -1310,7 +1337,7 @@
         0.154,
         9.133,
         0,
-        2,
+        0,
         10.333,
         0
       ]
@@ -1318,6 +1345,8 @@
     {
       "Target": "Parameter",
       "Id": "Param6",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         0,
@@ -1336,23 +1365,7 @@
         10.333,
         0
       ]
-    },
-    {
-      "Target": "Model",
-      "Id": "Opacity",
-      "Segments": [
-        0,
-        1,
-        0,
-        10.333,
-        1
-      ]
     }
   ],
-  "UserData": [
-    {
-      "Time": 0.0,
-      "Value": ""
-    }
-  ]
+  "UserData": []
 }

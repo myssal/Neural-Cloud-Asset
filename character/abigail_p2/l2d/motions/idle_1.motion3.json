@@ -5,23 +5,27 @@
     "Fps": 30.0,
     "Loop": true,
     "AreBeziersRestricted": true,
+    "FadeInTime": 1.0,
+    "FadeOutTime": 1.0,
     "CurveCount": 9,
     "TotalSegmentCount": 110,
     "TotalPointCount": 178,
-    "UserDataCount": 1,
+    "UserDataCount": 0,
     "TotalUserDataSize": 0
   },
   "Curves": [
     {
       "Target": "Parameter",
       "Id": "ParamEyeLOpen",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         0.5,
         0,
         1.2,
         0.3,
-        2,
+        0,
         2.567,
         0.3,
         0,
@@ -50,6 +54,8 @@
     {
       "Target": "Parameter",
       "Id": "ParamEyeROpen",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         30,
@@ -73,7 +79,7 @@
         0,
         4.5,
         -30,
-        2,
+        0,
         4.867,
         -30,
         0,
@@ -102,6 +108,8 @@
     {
       "Target": "Parameter",
       "Id": "ParamBreath",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         0,
@@ -128,6 +136,8 @@
     {
       "Target": "Parameter",
       "Id": "ParamDOG",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         -22.594,
@@ -190,6 +200,8 @@
     {
       "Target": "Parameter",
       "Id": "ParamMouthOpenY",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         30,
@@ -199,7 +211,7 @@
         0,
         2.7,
         30,
-        2,
+        0,
         4,
         30,
         0,
@@ -231,6 +243,8 @@
     {
       "Target": "Parameter",
       "Id": "ParamYIFU_1A",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         -30,
@@ -351,6 +365,8 @@
     {
       "Target": "Parameter",
       "Id": "ParamYIFU_1B",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         0,
@@ -467,6 +483,8 @@
     {
       "Target": "Parameter",
       "Id": "ParamFA_1A",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         -30,
@@ -505,6 +523,8 @@
     {
       "Target": "Parameter",
       "Id": "ParamFA_1B",
+      "FadeInTime": -1.0,
+      "FadeOutTime": -1.0,
       "Segments": [
         0,
         0,
@@ -548,10 +568,5 @@
       ]
     }
   ],
-  "UserData": [
-    {
-      "Time": 0.0,
-      "Value": ""
-    }
-  ]
+  "UserData": []
 }

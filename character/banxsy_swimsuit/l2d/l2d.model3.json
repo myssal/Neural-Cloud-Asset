@@ -1,46 +1,66 @@
 {
   "Version": 3,
+  "Name": "L2D",
   "FileReferences": {
-    "Moc": "l2d.moc3",
+    "Moc": "L2D.moc3",
     "Textures": [
       "textures/texture_00.png",
       "textures/texture_01.png"
     ],
     "Physics": null,
     "Motions": {
-      "": [
-        {
-          "File": "motions/touch_5.motion3.json"
-        },
-        {
-          "File": "motions/touch_2.motion3.json"
-        },
-        {
-          "File": "motions/touch_4.motion3.json"
-        },
-        {
-          "File": "motions/login_2.motion3.json"
-        },
-        {
-          "File": "motions/touch_3.motion3.json"
-        },
-        {
-          "File": "motions/repeat.motion3.json"
-        },
-        {
-          "File": "motions/wait_1.motion3.json"
-        },
+      "login_1": [
         {
           "File": "motions/login_1.motion3.json"
-        },
+        }
+      ],
+      "login_2": [
+        {
+          "File": "motions/login_2.motion3.json"
+        }
+      ],
+      "normal": [
         {
           "File": "motions/normal.motion3.json"
-        },
+        }
+      ],
+      "repeat": [
+        {
+          "File": "motions/repeat.motion3.json"
+        }
+      ],
+      "touch_1": [
         {
           "File": "motions/touch_1.motion3.json"
         }
+      ],
+      "touch_2": [
+        {
+          "File": "motions/touch_2.motion3.json"
+        }
+      ],
+      "touch_3": [
+        {
+          "File": "motions/touch_3.motion3.json"
+        }
+      ],
+      "touch_4": [
+        {
+          "File": "motions/touch_4.motion3.json"
+        }
+      ],
+      "touch_5": [
+        {
+          "File": "motions/touch_5.motion3.json"
+        }
+      ],
+      "wait_1": [
+        {
+          "File": "motions/wait_1.motion3.json"
+        }
       ]
-    }
+    },
+    "Expressions": []
   },
   "Groups": [
     {
