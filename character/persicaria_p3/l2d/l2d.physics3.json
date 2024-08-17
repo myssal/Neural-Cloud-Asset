@@ -2,9 +2,9 @@
   "Version": 3,
   "Meta": {
     "PhysicsSettingCount": 2,
-    "TotalInputCount": 1,
+    "TotalInputCount": 5,
     "TotalOutputCount": 2,
-    "VertexCount": 0,
+    "VertexCount": 4,
     "EffectiveForces": {
       "Gravity": {
         "X": 0,
@@ -29,42 +29,71 @@
   "PhysicsSettings": [
     {
       "Id": "PhysicsSetting1",
-      "Input": [],
+      "Input": [
+        {
+          "Source": {
+            "Target": "Parameter",
+            "Id": "ParamBodyAngleZ"
+          },
+          "Weight": 30,
+          "Type": "Angle",
+          "Reflect": false
+        },
+        {
+          "Source": {
+            "Target": "Parameter",
+            "Id": "ParamAngleX"
+          },
+          "Weight": 100,
+          "Type": "X",
+          "Reflect": false
+        }
+      ],
       "Output": [
         {
           "Destination": {
             "Target": "Parameter",
-            "Id": "ParamBodyAngleZ"
+            "Id": "ParamOpaishakeX"
           },
-          "VertexIndex": 0,
-          "Scale": 30,
-          "Weight": 0,
-          "Type": "X",
-          "Reflect": true
-        },
-        {
-          "Destination": {
-            "Target": "Parameter",
-            "Id": ""
-          },
-          "VertexIndex": 1735278957,
-          "Scale": 0,
-          "Weight": 0,
-          "Type": null,
+          "VertexIndex": 1,
+          "Scale": 1.6,
+          "Weight": 100,
+          "Type": "Angle",
           "Reflect": false
         }
       ],
-      "Vertices": [],
+      "Vertices": [
+        {
+          "Position": {
+            "X": 0,
+            "Y": 0
+          },
+          "Mobility": 1,
+          "Delay": 1,
+          "Acceleration": 1,
+          "Radius": 0
+        },
+        {
+          "Position": {
+            "X": 0,
+            "Y": 5
+          },
+          "Mobility": 0.9,
+          "Delay": 0.6,
+          "Acceleration": 1.4,
+          "Radius": 5
+        }
+      ],
       "Normalization": {
         "Position": {
-          "Minimum": 0,
-          "Default": 279445300000000000000,
-          "Maximum": 0
+          "Minimum": -10,
+          "Default": 0,
+          "Maximum": 10
         },
         "Angle": {
-          "Minimum": 267997600000000000000,
+          "Minimum": -10,
           "Default": 0,
-          "Maximum": 277058900000000000000
+          "Maximum": 10
         }
       }
     },
@@ -74,25 +103,76 @@
         {
           "Source": {
             "Target": "Parameter",
-            "Id": ""
+            "Id": "ParamBodyAngleY"
           },
-          "Weight": 0,
+          "Weight": 15,
           "Type": "X",
-          "Reflect": true
+          "Reflect": false
+        },
+        {
+          "Source": {
+            "Target": "Parameter",
+            "Id": "ParamAngleY"
+          },
+          "Weight": 70,
+          "Type": "X",
+          "Reflect": false
+        },
+        {
+          "Source": {
+            "Target": "Parameter",
+            "Id": "ParamHipY"
+          },
+          "Weight": 15,
+          "Type": "X",
+          "Reflect": false
         }
       ],
-      "Output": [],
-      "Vertices": [],
+      "Output": [
+        {
+          "Destination": {
+            "Target": "Parameter",
+            "Id": "ParamOpaishakeY"
+          },
+          "VertexIndex": 1,
+          "Scale": 2,
+          "Weight": 100,
+          "Type": "Angle",
+          "Reflect": false
+        }
+      ],
+      "Vertices": [
+        {
+          "Position": {
+            "X": 0,
+            "Y": 0
+          },
+          "Mobility": 1,
+          "Delay": 1,
+          "Acceleration": 1,
+          "Radius": 0
+        },
+        {
+          "Position": {
+            "X": 0,
+            "Y": 5
+          },
+          "Mobility": 0.9,
+          "Delay": 0.7,
+          "Acceleration": 1.5,
+          "Radius": 5
+        }
+      ],
       "Normalization": {
         "Position": {
-          "Minimum": 1,
-          "Default": 1,
-          "Maximum": 1
+          "Minimum": -10,
+          "Default": 0,
+          "Maximum": 10
         },
         "Angle": {
-          "Minimum": 0,
-          "Default": 5,
-          "Maximum": 0
+          "Minimum": -10,
+          "Default": 0,
+          "Maximum": 10
         }
       }
     }
