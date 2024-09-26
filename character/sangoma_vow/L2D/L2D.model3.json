@@ -1,0 +1,143 @@
+{
+  "Version": 3,
+  "Name": "L2D",
+  "FileReferences": {
+    "Moc": "L2D.moc3",
+    "Textures": [
+      "textures/texture_00.png",
+      "textures/texture_01.png"
+    ],
+    "Physics": null,
+    "Motions": {
+      "login_1": [
+        {
+          "File": "motions/login_1.motion3.json"
+        }
+      ],
+      "normalA": [
+        {
+          "File": "motions/normalA.motion3.json"
+        }
+      ],
+      "normalB": [
+        {
+          "File": "motions/normalB.motion3.json"
+        }
+      ],
+      "normalC": [
+        {
+          "File": "motions/normalC.motion3.json"
+        }
+      ],
+      "normalD": [
+        {
+          "File": "motions/normalD.motion3.json"
+        }
+      ],
+      "normalE": [
+        {
+          "File": "motions/normalE.motion3.json"
+        }
+      ],
+      "repeat": [
+        {
+          "File": "motions/repeat.motion3.json"
+        }
+      ],
+      "soundOnlyAnim": [
+        {
+          "File": "motions/soundOnlyAnim.motion3.json"
+        }
+      ],
+      "touch_A1": [
+        {
+          "File": "motions/touch_A1.motion3.json"
+        }
+      ],
+      "touch_AB": [
+        {
+          "File": "motions/touch_AB.motion3.json"
+        }
+      ],
+      "touch_AD": [
+        {
+          "File": "motions/touch_AD.motion3.json"
+        }
+      ],
+      "touch_AE": [
+        {
+          "File": "motions/touch_AE.motion3.json"
+        }
+      ],
+      "touch_B1": [
+        {
+          "File": "motions/touch_B1.motion3.json"
+        }
+      ],
+      "touch_BC": [
+        {
+          "File": "motions/touch_BC.motion3.json"
+        }
+      ],
+      "touch_C1": [
+        {
+          "File": "motions/touch_C1.motion3.json"
+        }
+      ],
+      "touch_CD": [
+        {
+          "File": "motions/touch_CD.motion3.json"
+        }
+      ],
+      "touch_D1": [
+        {
+          "File": "motions/touch_D1.motion3.json"
+        }
+      ],
+      "touch_DA": [
+        {
+          "File": "motions/touch_DA.motion3.json"
+        }
+      ],
+      "touch_DE": [
+        {
+          "File": "motions/touch_DE.motion3.json"
+        }
+      ],
+      "touch_E1": [
+        {
+          "File": "motions/touch_E1.motion3.json"
+        }
+      ],
+      "touch_E2": [
+        {
+          "File": "motions/touch_E2.motion3.json"
+        }
+      ],
+      "touch_EA": [
+        {
+          "File": "motions/touch_EA.motion3.json"
+        }
+      ]
+    },
+    "Expressions": []
+  },
+  "Groups": [
+    {
+      "Target": "Parameter",
+      "Name": "EyeBlink",
+      "Ids": [
+        "ParamEyeROpen",
+        "ParamEyeLOpen",
+        "ParamJTEyeOpen"
+      ]
+    },
+    {
+      "Target": "Parameter",
+      "Name": "LipSync",
+      "Ids": [
+        "ParamMouthOpenY"
+      ]
+    }
+  ]
+}
